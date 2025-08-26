@@ -58,22 +58,27 @@ a {
 
 .form {
     flex: 1;
-}
-
-form {
-    display: flex;
-}
-
-label {
-    display: block;
+    padding-left: 10%;
 }
 
 input {
     height: 3rem;
     width: 15rem;
     border-radius: 5px;
+    margin: 10px;
 }
 
 .login {
     flex: 1;
+}
+
+.one, .two, .three {
+ display: flex;
+ justify-content: flex-start;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }

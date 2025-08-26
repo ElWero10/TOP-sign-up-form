@@ -89,7 +89,10 @@ input {
     width: 20rem;
     border-radius: 5px;
     margin: 10px;
-    border: 1px solid #e5e7eb
+    border: 1px solid #e5e7eb;
+    color: black;
+    font-size: 18px;
+    padding-left: 4px;
 }
 
 .login {
@@ -133,9 +136,10 @@ button {
 
 input:valid {
     border: 1px solid green;
+    background-color: hsl(120deg  50 50 / .2);
 }
 
-input:invalid {
+input:invalid:not(:focus):not(:placeholder-shown) {
     border: 1px solid red;
 }
 

@@ -2,3 +2,78 @@
     padding: 0;
     margin: 0;
 }
+body {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.hero-image {
+    height: 100vh;
+    width: 40vw;
+}
+
+.odin {
+    position: absolute;
+    background-color: hsl(0deg 0 20 / .8);
+    width: 40vw;
+    top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.attribute {
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+    color: white;
+    font-size: 18px;
+}
+
+a {
+    color: white;
+}
+
+.odin > img {
+    height: 120px;
+    width: 100px;
+}
+
+.odin > p {
+    color: white;
+    font-family: "Metamorphous", sans-serif;
+    font-size: 64px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex: 1;
+}
+
+.form {
+    flex: 1;
+}
+
+form {
+    display: flex;
+}
+
+label {
+    display: block;
+}
+
+input {
+    height: 3rem;
+    width: 15rem;
+    border-radius: 5px;
+}
+
+.login {
+    flex: 1;
+}

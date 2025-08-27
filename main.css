@@ -134,7 +134,7 @@ button {
     top: 15vh;
 }
 
-input:valid {
+input:valid:not(:focus) {
     border: 1px solid green;
     background-color: hsl(120deg  50 50 / .2);
 }
@@ -143,6 +143,6 @@ input:invalid:not(:focus):not(:placeholder-shown) {
     border: 1px solid red;
 }
 
-input:active {
+input:focus {
     border: 1px solid blue;
 }
